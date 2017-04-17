@@ -11,6 +11,7 @@ h1,
 	color: #4aaaa5;
 	font-family: 'Georgia', 'Times', Times New Roman, serif;
 	font-weight: bold;
+	padding-bottom: 10px;
 }
 
 h1 {
@@ -28,6 +29,37 @@ label {
 	color: #777;
 }
 
+p {
+	line-height: 2;
+	font-size: 16px;
+}
+
+.strong {
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', 'Times', Times New Roman, serif;
+	font-size: 38px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+#bs-example-navbar-collapse-1 {
+	padding-top: 40px;
+}
+
+li {
+	font-size: 16px;
+}
+
+#header {
+	background-color: #fff;
+}
+
 #main-content {
 	background-color: #fff;
 	border-style: solid;
@@ -41,5 +73,73 @@ label {
 	border-style: solid;
 	border-color: #ddd;
 	border-width: 1px; 
+	margin-bottom: 80px;
 }
+
+.panel-default .panel-heading {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background-color: #fff;
+	border-bottom: 3px solid #ddd;
+}
+
+#footer {
+	background-color: #666;
+	height: 80px;
+	margin-bottom: 0;
+}
+
+.navbar-header {
+	color: #ddd;
+}
+
+.container-fluid .navbar-header {
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+
+
+/************** Portfolio **************/
+
+.page-header {
+	border-bottom: 3px solid #ddd;
+}
+
+.thumbnail .caption {
+	padding-bottom: 15px;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin: 0 auto;
+	width: 91%;
+}
+
+.thumbnail {
+	border: none;
+}
+
+.caption a {
+	color: #fff;
+	font-family: 'Georgia', 'Times', Times New Roman, serif;
+}
+
+
+
+/************** Contact **************/
+
+.btn-default {
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+.btn {
+	padding: 6px 25px;
+	font-size: 16px;
+}
+
+label {
+	font-size: 16px;
+}
+
+
 
